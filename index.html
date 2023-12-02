@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Responsive Web CSS Grid</title>
+</head>
+
+<body id="home">
+  <header class="container" id="header">
+    <nav class="menu" id="nav-bar">
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="brand">
+        <h1>The Messi Store</h1>
+      </div>
+      <ul class="menu-list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <div class="header">
+      <div class="hero">
+        <img src="https://static.messi.com/wp-content/uploads/2019/10/cropped-messi-logo-01.png" alt="header-img"
+          id="header-img" />
+        <h2 class="heading">The Messi Store</h2>
+        <p class="sub-heading">HOLIDAYS SALE</p>
+      </div>
+      <div class="features feature-1">
+        <h4 class="price">IDR 250K</h4>
+        <p class="item">Hoodie</p>
+      </div>
+      <div class="features feature-2">
+        <h4 class="price">IDR 150K</h4>
+        <p class="item">T-Shirt</p>
+      </div>
+    </div>
+
+    <section class="services" id="services">
+      <div class="service">
+        <div class="icon"><img
+            src="https://www.themessistore.com/cdn/shop/files/IMG_0281-LEO-PARISSHOOTING04-2023-LM985copy.jpg?v=1700074917"
+            alt=""></div>
+        <h3>Messi Collection</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab laudantium voluptatem labore distinctio dolores
+          aperiam!</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img
+            src="https://cdn.shopify.com/s/files/1/0252/7490/8726/files/KidsLanding-Web-Hoodies.jpg?v=1699557463"
+            alt="">
+        </div>
+        <h3>Kids</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab laudantium voluptatem labore distinctio dolores
+          aperiam!</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img
+            src="https://cdn.shopify.com/s/files/1/0252/7490/8726/files/Rosa_Vibe_MIA_capsule_web.png?v=1699293027"
+            alt=""></div>
+        <h3>Rosa/Vibe</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab laudantium voluptatem labore distinctio dolores
+          aperiam!</p>
+      </div>
+      <div class="service">
+        <div class="icon"><img
+            src="https://cdn.shopify.com/s/files/1/0252/7490/8726/files/Gift_guide_banner.jpg?v=1700251999" alt="">
+        </div>
+        <h3>Goat Gift Guide</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab laudantium voluptatem labore distinctio dolores
+          aperiam!</p>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <img
+        src="https://www.themessistore.com/cdn/shop/products/LM007-RED-BLACK_01_c0eab6cb-c04d-4967-8b79-c6dee67891b8.jpg?v=1619186095"
+        alt="" />
+      <img src="https://www.themessistore.com/cdn/shop/files/LM368-WHITE-BLACK_01NEW.jpg?v=1697576774" alt="" />
+      <img src="https://www.themessistore.com/cdn/shop/files/LMK908-MESSIBIGLOGOKID_STEE-NavyBlue01.jpg?v=1700168485"
+        alt="" />
+      <img src="https://www.themessistore.com/cdn/shop/files/LMK1134-M1010KIDSTEE-Black01.jpg?v=1688747780" alt="" />
+      <img
+        src="https://www.themessistore.com/cdn/shop/products/LM1067-MESSIWORLDCHAMPIONTEE-Navy01_677a96ee-caf9-4e66-8afe-5e0c6e62fce6.jpg?v=1681939260"
+        alt="" />
+      <img
+        src="https://www.themessistore.com/cdn/shop/files/kids-fleece-hoodie-black-front-64dd22033f453.jpg?v=1692213769"
+        alt="" />
+      <img
+        src="https://www.themessistore.com/cdn/shop/files/kids-fleece-hoodie-white-front-64d65089c1602.jpg?v=1691766928"
+        alt="" />
+      <img
+        src="https://www.themessistore.com/cdn/shop/files/kids-fleece-hoodie-black-front-6542c4b2ceb2c.jpg?v=1698874552"
+        alt="" />
+      <img src="https://www.themessistore.com/cdn/shop/files/LM1180MESSIMIAMI10GRAPHICTEE-Black01.jpg?v=1696976993"
+        alt="" />
+      <img src="https://www.themessistore.com/cdn/shop/products/LM1068MESSIWORLDCHAMPIONTEE-Navy01.jpg?v=1671640348"
+        alt="" />
+    </section>
+
+    <section class="contact">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="name@email.com" />
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section class="video">
+
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VH0SvIZ45aA?si=su3bhd5RszGIgTem" id="video"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+  </header>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav ul');
+    const span = document.querySelectorAll('.menu-toggle span');
+
+    menuToggle.addEventListener('click', function () {
+      nav.classList.toggle('slide');
+      span.forEach((s) => {
+        s.classList.toggle('slide');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
